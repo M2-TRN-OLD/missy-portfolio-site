@@ -25,11 +25,11 @@
 }
 
   
-  html, body, .wrapper {
+  /* html, body, .wrapper {
     height: 100%;
     background-color: var(--background-color);
     font-family: 'Quattrocento', serif;
-  }
+  } */
   
   ul, li {
     margin: 0;
@@ -75,6 +75,7 @@
     height: 300px;
     width: 300px;
     border: 1px solid orange;
+
   }
 
   #project-view-hero {
@@ -100,6 +101,17 @@
   .project-section {
     height: 300px;
     border: 1px solid red;
+  }
+
+  .tool-list {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 1px solid pink;
+  }
+
+  .tool-item {
+    border: 1px solid black;
   }
   
   .hide {

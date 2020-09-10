@@ -8,8 +8,10 @@ const SiteNav = () => (
     <span role="img" aria-label="picture" className="logo icon">
       Logo goes here
     </span>
-    <span className="title">
-      <Link to="/">Missy's Portfolio</Link>
+    <span>
+      <Link to="/" className="nav-link title">
+        Missy Maloney
+      </Link>
     </span>
   </nav>
 );
