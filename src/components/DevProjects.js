@@ -1,6 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import htmlLogo from "../images/icons8-html-5-50.svg";
+import cssLogo from "../images/icons8-css3-50.svg";
+import jsLogo from "../images/icons8-javascript-50.svg";
+import reactLogo from "../images/icons8-react-native-50.svg";
+import nodeLogo from "../images/icons8-nodejs-50.svg";
+import mongoLogo from "../images/icons8-mongodb-50.svg";
+import jqueryLogo from "../images/icons8-jquery-50.svg";
+
 import "../styles/Pvt.scss";
 
 const devProjects = [
@@ -10,32 +18,32 @@ const devProjects = [
     tools: [
       {
         name: "html",
-        imageSrc: "/images/icons8-html-5-50.svg",
+        imageSrc: htmlLogo,
         alt: "HTML-5",
       },
       {
         name: "css",
-        imageSrc: "../images/icons8-css3-50.svg",
+        imageSrc: cssLogo,
         alt: "CSS-3",
       },
       {
         name: "javascript",
-        imageSrc: "../images/icons8-javascript-50.svg",
+        imageSrc: jsLogo,
         alt: "Javascript",
       },
       {
         name: "react",
-        imageSrc: "../images/icons8-react-native-50.svg",
+        imageSrc: reactLogo,
         alt: "React",
       },
       {
         name: "node",
-        imageSrc: "../images/icons8-nodejs-50.svg",
+        imageSrc: nodeLogo,
         alt: "Node-JS",
       },
       {
         name: "mongodb",
-        imageSrc: "../images/icons8-mongodb-50.svg",
+        imageSrc: mongoLogo,
         alt: "HTML-5",
       },
     ],
@@ -53,32 +61,32 @@ const devProjects = [
     tools: [
       {
         name: "html",
-        imageSrc: "images/icons8-html-5-50.svg",
+        imageSrc: htmlLogo,
         alt: "HTML-5",
       },
       {
         name: "css",
-        imageSrc: "images/icons8-css3-50.svg",
+        imageSrc: cssLogo,
         alt: "CSS-3",
       },
       {
         name: "javascript",
-        imageSrc: "images/icons8-javascript-50.svg",
+        imageSrc: jsLogo,
         alt: "Javascript",
       },
       {
         name: "react",
-        imageSrc: "images/icons8-react-native-50.svg",
+        imageSrc: reactLogo,
         alt: "React",
       },
       {
         name: "node",
-        imageSrc: "images/icons8-nodejs-50.svg",
+        imageSrc: nodeLogo,
         alt: "Node-JS",
       },
       {
         name: "mongodb",
-        imageSrc: "images/icons8-mongodb-50.svg",
+        imageSrc: mongoLogo,
         alt: "HTML-5",
       },
     ],
@@ -95,27 +103,27 @@ const devProjects = [
     tools: [
       {
         name: "html",
-        imageSrc: "images/icons8-html-5-50.svg",
+        imageSrc: htmlLogo,
         alt: "HTML-5",
       },
       {
         name: "css",
-        imageSrc: "images/icons8-css3-50.svg",
+        imageSrc: cssLogo,
         alt: "CSS-3",
       },
       {
         name: "javascript",
-        imageSrc: "images/icons8-javascript-50.svg",
+        imageSrc: jsLogo,
         alt: "Javascript",
       },
       {
         name: "jQuery",
-        imageSrc: "images/icons8-jquery-50.svg",
+        imageSrc: jqueryLogo,
         alt: "jQuery",
       },
       {
         name: "APIs",
-        imageSrc: "images/icons8-jquery-50.svg",
+        imageSrc: jqueryLogo,
         alt: "APIs",
       },
     ],
@@ -133,6 +141,7 @@ class DevProjects extends React.Component {
   render() {
     return (
       <div className="project-section dev">
+        <img src={htmlLogo} />
         {devProjects.map((item, index) => {
           return (
             <div className="project-card" key={item.id}>
@@ -141,7 +150,7 @@ class DevProjects extends React.Component {
               <p>{item.topic}</p>
               <div className="tool-list">
                 {item.tools.map((tool, index) => (
-                  <div className="tool-item">
+                  <div className="tool-item" key={index}>
                     <img data-name={tool.name} className="tech-icon" src={tool.imageSrc} alt={tool.alt} />
                   </div>
                 ))}
