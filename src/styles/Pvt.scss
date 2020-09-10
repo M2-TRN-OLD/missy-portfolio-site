@@ -54,6 +54,7 @@
     height: 75px;
   }
   
+
   section {
     display: flex;
     height: calc(100vh - 150px);
@@ -68,6 +69,37 @@
   footer p {
     font-size: 0.8em;
     align-self: center;
+  }
+
+  #landing {
+    height: 300px;
+    width: 300px;
+    border: 1px solid orange;
+  }
+
+  #project-view-hero {
+    height: 300px;
+    border: 1px solid green;
+  }
+
+  #pvt-nav {
+    
+    ul {
+      display:flex;
+      flex-direction:row;
+      height: 100px;
+    }
+    
+    li {
+      padding: 20px;
+      border: 1px solid orange;
+    }
+
+  }
+
+  .project-section {
+    height: 300px;
+    border: 1px solid red;
   }
   
   .hide {
