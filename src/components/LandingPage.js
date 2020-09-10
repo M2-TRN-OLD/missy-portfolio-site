@@ -1,10 +1,10 @@
 import React from 'react';
 
-import "../styles/Pvt.scss";
+import "../styles/Project.scss";
 
 const LandingPage = () => {
   return (
-    <section id="landing">
+    <section className="project-section">
         <p className="define">
           I am a <span className="bold highlight">Web Developer</span> based in
           Rockville, Maryland. I love to watch ideas come to life with digital

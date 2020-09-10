@@ -5,7 +5,7 @@ import "./App.scss";
 
 
 import SiteNav from "./components/SiteNav";
-import PvtNav from "./components/PvtNav";
+import ProjectNav from "./components/ProjectNav";
 import LandingPage from './components/LandingPage';
 import DevProjects from './components/DevProjects';
 import DesignProjects from './components/DesignProjects';
@@ -18,7 +18,7 @@ function App() {
   return (
       <Router>
         <SiteNav />
-        <PvtNav />
+        <ProjectNav />
         <Switch>
           <Route path="/" component={LandingPage} exact />
           <Route path="/development" component={DevProjects} />

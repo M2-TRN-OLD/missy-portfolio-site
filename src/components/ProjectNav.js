@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import "../styles/Pvt.scss";
+import "../styles/Project.scss";
 
-const PvtNav = () => (
-    <nav id="pvt-nav">
+const ProjectNav = () => (
+    <nav id="project-nav">
       <ul className="items">
         <li className="dev-projects">
           <Link to="/development" className="nav-link">Development Projects</Link>
@@ -20,4 +20,4 @@ const PvtNav = () => (
   );
 
 
-export default PvtNav;
+export default ProjectNav;

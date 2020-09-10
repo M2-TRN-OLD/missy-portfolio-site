@@ -1,18 +1,15 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import '../styles/Pvt.scss';
+import '../styles/Project.scss';
 
 const SiteNav = () => (
-  <nav id="siteNav">
-    <span role="img" aria-label="picture" className="logo icon">
-      Logo goes here
-    </span>
-    <span>
+  <nav id="site-nav">
+    <div>
       <Link to="/" className="nav-link title">
         Missy Maloney
       </Link>
-    </span>
+    </div>
   </nav>
 );
 
