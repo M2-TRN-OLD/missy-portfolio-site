@@ -1,12 +1,5 @@
-body {
-  margin: 0;
-  font-family: 'Quattrocento', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-color);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+    &__header {
+        border-bottom: 2px solid var(--accent-color-3);
+    }
 }

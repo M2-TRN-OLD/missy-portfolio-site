@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "../styles/Project.scss";
+/* import "../styles/Project.scss"; */
 
 function About() {
   return (

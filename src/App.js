@@ -16,9 +16,13 @@ import About from './components/About';
 function App() {
 
   return (
+    <div className="app">
       <Router>
-        <SiteNav />
-        <ProjectNav />
+        <div className="app__header">
+          <SiteNav />
+          <ProjectNav />
+        </div>
+
         <Switch>
           <Route path="/" component={LandingPage} exact />
           <Route path="/development" component={DevProjects} />
@@ -26,6 +30,7 @@ function App() {
           <Route path="/about" component={About} />
         </Switch>
       </Router>
+    </div>
   );
 }
 

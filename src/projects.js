@@ -140,125 +140,197 @@ export const devProjects = [
 export const designProjects = [
   {
     id: 1,
-    title: "design 1",
-    tools: [
+    title: "Dinner's On",
+    overview:
+      "Executive FollowUp is a tool to be used by students in upper middle school through college to monitor academic performance",
+    artifacts: [
       {
-        name: "html",
+        name: "Project Brief",
+        desc: "this is the desc",
         imageSrc: htmlLogo,
         alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            name: "html",
+            imageSrc: htmlLogo,
+            alt: "HTML-5",
+          },
+          {
+            name: "css",
+            imageSrc: cssLogo,
+            alt: "CSS-3",
+          },
+        ],
       },
       {
-        name: "css",
-        imageSrc: cssLogo,
-        alt: "CSS-3",
-      },
-      {
-        name: "javascript",
-        imageSrc: jsLogo,
-        alt: "Javascript",
-      },
-      {
-        name: "react",
-        imageSrc: reactLogo,
-        alt: "React",
-      },
-      {
-        name: "node",
-        imageSrc: nodeLogo,
-        alt: "Node-JS",
-      },
-      {
-        name: "mongodb",
-        imageSrc: mongoLogo,
+        name: "Wireframes",
+        desc: "this is the desc",
+        imageSrc: htmlLogo,
         alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            name: "html",
+            imageSrc: htmlLogo,
+            alt: "HTML-5",
+          },
+          {
+            name: "css",
+            imageSrc: cssLogo,
+            alt: "CSS-3",
+          },
+        ],
+      },
+      {
+        name: "Mockups",
+        desc: "this is the desc",
+        imageSrc: htmlLogo,
+        alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            name: "html",
+            imageSrc: htmlLogo,
+            alt: "HTML-5",
+          },
+          {
+            name: "css",
+            imageSrc: cssLogo,
+            alt: "CSS-3",
+          },
+        ],
       },
     ],
-    topic:
-      "Executive FollowUp is a tool to be used by students in upper middle school through college to monitor academic performance",
-    description:
-      "At a glance, a student can see what is due today or this week, as well as, how much study time is needed.  The student can keep track of grades and help determine future course selections.",
-    appLink: "https://nameless-inlet-97185.herokuapp.com/",
-    appImageSrc: efuImage,
-    codeLink: "http://github.com/MissyM2/efu-client",
   },
   {
     id: 2,
-    title: "design 2",
-    tools: [
+    title: "shopYourCloset",
+    overview:
+      "With shopYourCloset a user can get and maintain control over his or her wardrobe.",
+    artifacts: [
       {
-        name: "html",
+        name: "Project Brief",
+        desc: "this is the desc",
         imageSrc: htmlLogo,
         alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            name: "html",
+            imageSrc: htmlLogo,
+            alt: "HTML-5",
+          },
+          {
+            name: "css",
+            imageSrc: cssLogo,
+            alt: "CSS-3",
+          },
+        ],
       },
       {
-        name: "css",
-        imageSrc: cssLogo,
-        alt: "CSS-3",
-      },
-      {
-        name: "javascript",
-        imageSrc: jsLogo,
-        alt: "Javascript",
-      },
-      {
-        name: "react",
-        imageSrc: reactLogo,
-        alt: "React",
-      },
-      {
-        name: "node",
-        imageSrc: nodeLogo,
-        alt: "Node-JS",
-      },
-      {
-        name: "mongodb",
-        imageSrc: mongoLogo,
+        name: "Wireframes",
+        desc: "this is the desc",
+        imageSrc: htmlLogo,
         alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            name: "html",
+            imageSrc: htmlLogo,
+            alt: "HTML-5",
+          },
+          {
+            name: "css",
+            imageSrc: cssLogo,
+            alt: "CSS-3",
+          },
+        ],
+      },
+      {
+        name: "Mockups",
+        desc: "this is the desc",
+        imageSrc: htmlLogo,
+        alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            name: "html",
+            imageSrc: htmlLogo,
+            alt: "HTML-5",
+          },
+          {
+            name: "css",
+            imageSrc: cssLogo,
+            alt: "CSS-3",
+          },
+        ],
       },
     ],
-    topic:
-      "With shopYourCloset a user can get and maintain control over his or her wardrobe.",
-    description:
-      "You add wardrobe items to the app.  The app will, then, analyze your wardrobe and give recommendations and options for improvement.",
-    appImageSrc: sycImage,
-    appLink: "https://serene-dawn-65763.herokuapp.com/",
-    codeLink: "https://github.com/MissyM2/shopYourCloset",
   },
   {
     id: 3,
-    title: "design 3",
-    tools: [
+    title: "Executive Followup",
+    overview:
+      "getTheBook will help bookclubs choose the right book for the group",
+    artifacts: [
       {
-        name: "html",
+        name: "Project Brief",
+        desc: "this is the desc",
         imageSrc: htmlLogo,
         alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            name: "html",
+            imageSrc: htmlLogo,
+            alt: "HTML-5",
+          },
+          {
+            name: "css",
+            imageSrc: cssLogo,
+            alt: "CSS-3",
+          },
+        ],
       },
       {
-        name: "css",
-        imageSrc: cssLogo,
-        alt: "CSS-3",
+        name: "Wireframes",
+        desc: "this is the desc",
+        imageSrc: htmlLogo,
+        alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            name: "html",
+            imageSrc: htmlLogo,
+            alt: "HTML-5",
+          },
+          {
+            name: "css",
+            imageSrc: cssLogo,
+            alt: "CSS-3",
+          },
+        ],
       },
       {
-        name: "javascript",
-        imageSrc: jsLogo,
-        alt: "Javascript",
-      },
-      {
-        name: "jQuery",
-        imageSrc: jqueryLogo,
-        alt: "jQuery",
-      },
-      {
-        name: "APIs",
-        imageSrc: jqueryLogo,
-        alt: "APIs",
+        name: "Mockups",
+        desc: "this is the desc",
+        imageSrc: htmlLogo,
+        alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            name: "html",
+            imageSrc: htmlLogo,
+            alt: "HTML-5",
+          },
+          {
+            name: "css",
+            imageSrc: cssLogo,
+            alt: "CSS-3",
+          },
+        ],
       },
     ],
-    topic: "getTheBook will help bookclubs choose the right book for the group",
-    description:
-      "You enter a title, author or subject a book and you are returned reviews, videos, author information and suggestions.",
-    appImageSrc: gtbImage,
-    appLink: "https://missym2.github.io/getTheBook/",
-    codeLink: "https://github.com/MissyM2/getTheBookFinal",
   },
 ];

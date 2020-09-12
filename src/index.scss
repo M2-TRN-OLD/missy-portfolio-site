@@ -1,0 +1,56 @@
+* {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  :root{
+    --darkest-color: #3C3C3C;
+    --background-color:#eae7dc;
+    --light-accent: #AF473C;
+    --accent-color-3: #a46f72;
+    --dark-accent:#AF473C;
+    --borders-hover: #839181;
+    --white: #eee; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  margin: .3em;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--darkest-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color:inherit;
+  text-decoration:inherit;
+
+ /*  &:link {
+    color: var(--dark-accent);
+  }
+  &:visited {
+    text-decoration: none;
+  }
+  &:hover {
+    color: var(--light-accent);
+  }
+  &:active {
+    color: var(--light-accent);
+  } */
+}
+
+H1,
+H2,
+H3,
+H4 {
+  color: var(--dark-accent);
+
+}

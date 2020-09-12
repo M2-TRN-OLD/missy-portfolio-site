@@ -1,56 +1,51 @@
 import React from 'react';
 
-import { designProjects } from "../projects";
+import { DesignData } from "../DesignProjectsData";
 
-import "../styles/Project.scss";
+import "../styles/Card.scss";
 
 class DesignProjects extends React.Component {
   render() {
     return (
       <div className="project-section dev">
-        {designProjects.map((item, index) => {
+        {DesignData.map((item, index) => {
           return (
             <div className="card" key={item.id}>
               <h4 className="card-title">{item.title}</h4>
-              <div className="img-container">
-                <img src={item.appImageSrc} className="project-image" />
-              </div>
-              <p className="card-description">{item.topic}</p>
-              <p>{item.description}</p>
-              <div className="tool-list">
-                {item.tools.map((tool, index) => (
-                  <div className="tool-item" key={index}>
-                    <img
-                      data-name={tool.name}
-                      className="tech-icon"
-                      src={tool.imageSrc}
-                      alt={tool.alt}
-                    />
+              <p>{item.overview}</p>
+              <div className="artifact-list">
+                {item.artifacts.map((artifact, index) => {
+                  return (
+                    <div className="artifact-item" key={index}>
+                      <div>{artifact.name}</div>
+                      <img
+                        data-name={artifact.name}
+                        className="tech-icon"
+                        src={artifact.imageSrc}
+                        alt={artifact.alt}
+                      />
+                      <div>{artifact.artifactLink}</div>
+                    <div className="tools">
+                      {artifact.tools.map((tool, index) => {
+                        return (
+                        <div className="tools__item" key={index}>
+                          <img
+                            data-name={tool.name}
+                            className="tools_icon"
+                            src={tool.imageSrc}
+                            alt={tool.alt}
+                          />
+                        </div>
+                      );
+                      })}
+                    </div>
                   </div>
-                ))}
-              </div>
-              <div className="project-links">
-                <a
-                  href={item.appLink}
-                  className="btn-dark"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View project
-                </a>
-                <a 
-                  href={item.codeLink}
-                  className="btn-light marg-clear-l"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View code
-                </a>
+                  );
+                })}
               </div>
             </div>
-          );
-        })
-      }
+            );
+          })}
       </div>
     );
   }
