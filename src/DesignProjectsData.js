@@ -6,6 +6,18 @@ import muralLogo from "./images/muralco-ar21.svg";
 import zoomLogo from "./images/zoomus-ar21.svg";
 import figmaLogo from "./images/figma-ar21.svg";
 
+import section1 from "./artifacts/Section_1.pdf";
+import section2 from "./artifacts/Section_2.pdf";
+import section3 from "./artifacts/Section_3.pdf";
+import section4 from "./artifacts/Section_4.pdf";
+import section5 from "./artifacts/Section_5.pdf";
+import section6 from "./artifacts/Section_6.pdf";
+import section7 from "./artifacts/Section_7.pdf";
+import section8 from "./artifacts/Section_8.pdf";
+import section9 from "./artifacts/Section_9.pdf";
+import efuReport from "./artifacts/EFU_Final_Design_Report.pdf";
+
+
 
 
 export const DesignData = [
@@ -18,30 +30,66 @@ export const DesignData = [
       {
         name: "Project Brief",
         desc: "this is the desc",
-        imageSrc: aiLogo,
-        alt: "HTML-5",
-        artifactLink: "https//www.disney.com",
+        artifactLink: efuReport,
         tools: [],
       },
       {
-        name: "User Research",
+        name: "Introduction",
         desc: "this is the desc",
-        imageSrc: aiLogo,
-        alt: "HTML-5",
-        artifactLink: "https//www.disney.com",
-        tools: [
-          {
-            imageSrc: muralLogo,
-            alt: "Mural",
-          },
-          {
-            imageSrc: zoomLogo,
-            alt: "Zoom",
-          },
-        ],
+        artifactLink: section1,
+        tools: [],
       },
       {
-        name: "Wireframes",
+        name: "Research and Design Methods",
+        desc: "this is the desc",
+        artifactLink: section2,
+        tools: [],
+      },
+      {
+        name: "User Needs Analysis",
+        desc: "this is the desc",
+        artifactLink: section3,
+        tools: [],
+      },
+      {
+        name: "Competitive Analysis",
+        desc: "this is the desc",
+        artifactLink: section4,
+        tools: [],
+      },
+      {
+        name: "Design Goals",
+        desc: "this is the desc",
+        artifactLink: section5,
+        tools: [],
+      },
+      {
+        name: "Prototype",
+        desc: "this is the desc",
+        artifactLink: section6,
+        tools: [],
+      },
+      {
+        name: "Final Usability Testing",
+        desc: "this is the desc",
+        artifactLink: section7,
+        tools: [],
+      },
+      {
+        name: "Next Steps",
+        desc: "this is the desc",
+        artifactLink: section8,
+        tools: [],
+      },
+      {
+        name: "Appendix",
+        desc:
+          "Personas, Scenarios, Pretest/Post Test Docs, Interview Scripting ",
+        artifactLink: section9,
+        tools: [],
+      },
+      {
+        name: "Final Usability Testing",
         desc: "this is the desc",
         imageSrc: aiLogo,
         alt: "HTML-5",
@@ -119,6 +167,48 @@ export const DesignData = [
     title: "shopYourCloset",
     overview:
       "With shopYourCloset a user can get and maintain control over his or her wardrobe.",
+    artifacts: [
+      {
+        name: "Project Brief",
+        desc: "this is the desc",
+        imageSrc: aiLogo,
+        alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [],
+      },
+      {
+        name: "Wireframes",
+        desc: "this is the desc",
+        imageSrc: xdLogo,
+        alt: "Adobe XD",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            imageSrc: xdLogo,
+            alt: "Adobe XD",
+          },
+        ],
+      },
+      {
+        name: "Mockups",
+        desc: "this is the desc",
+        imageSrc: aiLogo,
+        alt: "HTML-5",
+        artifactLink: "https//www.disney.com",
+        tools: [
+          {
+            imageSrc: figmaLogo,
+            alt: "Figma",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "getTheBook",
+    overview:
+      "getTheBook will help bookclubs choose the right book for the group.",
     artifacts: [
       {
         name: "Project Brief",
