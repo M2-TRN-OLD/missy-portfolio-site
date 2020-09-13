@@ -30,6 +30,16 @@ class DesignProjects extends React.Component {
                           </a>
                         </div>
                         <div className="artifacts__desc">{artifact.desc}</div>
+                        <div className="artifacts__desc">
+                          <a
+                            href={artifact.supportDocLink}
+                            className="artifacts__title"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {artifact.supportDocDesc}
+                          </a>
+                        </div>
                       </div>
                     </li>
                   );

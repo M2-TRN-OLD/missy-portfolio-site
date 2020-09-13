@@ -3,3 +3,24 @@
         border-bottom: 2px solid var(--accent-color-3);
     }
 }
+
+.header {
+    display:flex;
+
+    &__image {
+        height: 2em;
+    }
+}
+
+
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+section {
+    display:flex;
+}
+
+.project__nav {
+     position: sticky;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+}

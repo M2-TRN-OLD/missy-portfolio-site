@@ -1,0 +1,68 @@
+header {
+    display:flex;
+    flex-direction:column;
+
+}
+
+.intro{
+    padding:1em;
+
+    &__id{
+        display:flex;
+        align-items:center;
+    }
+    &__image {
+        display:none;
+    }
+
+    &__title {
+        font-size:2em;
+    }
+
+    &__text-small {
+        display:block;
+        padding-top:.5em;
+    }
+
+    &__text-large {
+        display:none;
+    } 
+}
+
+
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+header {
+    display:flex;
+    flex-direction:column;
+}
+
+.intro {
+    padding:1em;
+
+    &__id{
+        display:flex;
+        align-items:center;
+    }
+
+    &__image {
+        display:block;
+        height: 10em;
+    }
+
+    &__title {
+        font-size:2.5em;
+        color:orange;
+    }
+
+    &__text-small {
+        display:none
+    }
+ 
+    &__text-large {
+        padding-top:1em;
+        display:block
+    }
+}
+
+}
+

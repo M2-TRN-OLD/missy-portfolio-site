@@ -1,11 +1,14 @@
 import balsamiqLogo from "./images/balsamiq-ar21.svg";
 import aiLogo from "./images/icons8-adobe-illustrator.svg";
 import xdLogo from "./images/icons8-adobe-xd.svg";
+import idLogo from "./images/icons8-adobe-xd.svg";
 import psLogo from "./images/icons8-adobe-photoshop.svg"
 import muralLogo from "./images/muralco-ar21.svg";
 import zoomLogo from "./images/zoomus-ar21.svg";
 import figmaLogo from "./images/figma-ar21.svg";
 
+
+// Executive Followup
 import section1 from "./artifacts/Section_1.pdf";
 import section2 from "./artifacts/Section_2.pdf";
 import section3 from "./artifacts/Section_3.pdf";
@@ -16,6 +19,14 @@ import section7 from "./artifacts/Section_7.pdf";
 import section8 from "./artifacts/Section_8.pdf";
 import section9 from "./artifacts/Section_9.pdf";
 import efuReport from "./artifacts/EFU_Final_Design_Report.pdf";
+import efuDataConvergence from "./artifacts/efu__data-convergence.pdf";
+
+// shopYourCloset
+import sycSiteWireframe from "./artifacts/sycSiteWireframes.png";
+
+// getTheBook
+import gtbSiteWireframe from "./artifacts/gtbSiteWireframes.png";
+
 
 
 
@@ -31,75 +42,59 @@ export const DesignData = [
         name: "Project Brief",
         desc: "this is the desc",
         artifactLink: efuReport,
-        tools: [],
       },
       {
         name: "Introduction",
         desc: "this is the desc",
         artifactLink: section1,
-        tools: [],
       },
       {
         name: "Research and Design Methods",
         desc: "this is the desc",
         artifactLink: section2,
-        tools: [],
       },
       {
         name: "User Needs Analysis",
         desc: "this is the desc",
         artifactLink: section3,
-        tools: [],
+        supportDocLink: efuDataConvergence,
+        supportDocDesc: "data convergence support doc",
       },
       {
         name: "Competitive Analysis",
         desc: "this is the desc",
         artifactLink: section4,
-        tools: [],
       },
       {
         name: "Design Goals",
         desc: "this is the desc",
         artifactLink: section5,
-        tools: [],
       },
       {
         name: "Prototype",
         desc: "this is the desc",
         artifactLink: section6,
-        tools: [],
       },
       {
         name: "Final Usability Testing",
         desc: "this is the desc",
         artifactLink: section7,
-        tools: [],
       },
       {
         name: "Next Steps",
         desc: "this is the desc",
         artifactLink: section8,
-        tools: [],
       },
       {
         name: "Appendix",
         desc:
           "Personas, Scenarios, Pretest/Post Test Docs, Interview Scripting ",
         artifactLink: section9,
-        tools: [],
       },
       {
         name: "Final Usability Testing",
         desc: "this is the desc",
-        imageSrc: aiLogo,
-        alt: "HTML-5",
         artifactLink: "https//www.disney.com",
-        tools: [
-          {
-            imageSrc: figmaLogo,
-            alt: "Figma",
-          },
-        ],
       },
       {
         name: "Mockups",
@@ -107,12 +102,18 @@ export const DesignData = [
         imageSrc: aiLogo,
         alt: "HTML-5",
         artifactLink: "https//www.disney.com",
-        tools: [
-          {
-            imageSrc: figmaLogo,
-            alt: "Figma",
-          },
-        ],
+      },
+      {
+        name: "Clickable Prototype",
+        desc: "New User",
+        artifactLink:
+          "https://www.figma.com/proto/VivSuDJJ2Kpln9v9dgdkCd/EFU-Prototypes?node-id=299%3A1482&scaling=scale-down",
+      },
+      {
+        name: "Clickable Prototypes",
+        desc: "Returning User",
+        artifactLink:
+          "https://www.figma.com/proto/VivSuDJJ2Kpln9v9dgdkCd/EFU-Prototypes?node-id=299%3A17104&scaling=scale-down",
       },
     ],
   },
@@ -181,11 +182,11 @@ export const DesignData = [
         desc: "this is the desc",
         imageSrc: xdLogo,
         alt: "Adobe XD",
-        artifactLink: "https//www.disney.com",
+        artifactLink: sycSiteWireframe,
         tools: [
           {
-            imageSrc: xdLogo,
-            alt: "Adobe XD",
+            imageSrc: idLogo,
+            alt: "Adobe InDesign",
           },
         ],
       },
@@ -219,15 +220,15 @@ export const DesignData = [
         tools: [],
       },
       {
-        name: "Wireframes",
+        name: "Site Map Wireframes",
         desc: "this is the desc",
         imageSrc: xdLogo,
         alt: "Adobe XD",
-        artifactLink: "https//www.disney.com",
+        artifactLink: gtbSiteWireframe,
         tools: [
           {
-            imageSrc: xdLogo,
-            alt: "Adobe XD",
+            imageSrc: idLogo,
+            alt: "Adobe InDesign",
           },
         ],
       },
