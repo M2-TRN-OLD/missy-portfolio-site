@@ -23,32 +23,3 @@
     }
   }
 
-  .links {
-      display:table;
-      width:80%;
-      margin:auto;
-      padding-top: 10px;
-      padding-bottom: 10px;
-
-      &__btn {
-          display:table-cell;
-          font-size: 1em;
-          padding: .2em;
-          width: 50%;
-          text-align:center;
-        }
-        &__btn-dark {
-            color: var(--background-color);         
-            background: var(--accent-color-3);
-            text-decoration: none;
-            border: none;
-            border: 2px solid var(--accent-color-3);
-        }
-        &__btn-light{
-            color: var(--accent-color-3);
-            background: var(--background-color);
-            text-decoration: none;
-            border: none;
-            border: 2px solid var(--accent-color-3);
-         }
-  }

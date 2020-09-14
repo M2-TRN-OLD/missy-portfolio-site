@@ -17,17 +17,12 @@ const SiteNav = () => (
             Missy Maloney
           </Link>
         </div>
-        <div className="intro__text-small">
-          <p>Web Designer and Developer</p>
-          <Link to="/about" className="nav-link">
-            More about me
-          </Link>
-        </div>
+       
       </div>
     </div>
     <div className="intro__text">
       <div className="intro__text-large">
-        I am a Web Designer andDeveloper based in Rockville, Maryland. I love to
+        I am a Web Designer and Developer based in Rockville, Maryland. I love to
         watch ideas come to life with digital tools. It's truly magic. People
         might describe me as a marketing or art person but I gravitate toward
         technology. I think that makes me versatile. I can see through the eyes

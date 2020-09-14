@@ -1,0 +1,24 @@
+.site-project-nav{
+    display:flex;
+}
+
+
+
+.items {
+  text-align:left;
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .site-project-nav {
+        display:none;
+    }
+}
+
+
+
+

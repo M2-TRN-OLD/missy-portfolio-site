@@ -11,7 +11,7 @@ class DevProjects extends React.Component {
         {devProjects.map((item, index) => {
           return (
             <div className="card" key={item.id}>
-              <h4 className="card__title">{item.title}</h4>
+              <div className="card__title">{item.title}</div>
               <div className="card__img-container">
                 <img src={item.appImageSrc} className="card__image" />
               </div>

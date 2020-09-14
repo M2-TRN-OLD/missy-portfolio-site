@@ -11,7 +11,7 @@ class DesignProjects extends React.Component {
         {DesignData.map((item, index) => {
           return (
             <div className="card" key={item.id}>
-              <h4 className="card-title">{item.title}</h4>
+              <div className="card__title">{item.title}</div>
               <p>{item.overview}</p>
               <div className="artifacts">
               <ul className="artifacts__container">

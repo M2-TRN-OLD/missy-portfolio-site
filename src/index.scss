@@ -14,23 +14,25 @@ html, body, section, article, aside {
 
   :root{
     --darkest-color: #3C3C3C;
-    --background-color:#eae7dc;
+    --background-color:#F2F3FC;
+    --background-color-contrast: #DEE0EE;
+    --body-text: #150359;
+    --text-highlight:#D63F29;
+    --highlight-2: #9BF4DC;
+    --highlight-3:#3745E4;
     --light-accent: #AF473C;
-    --accent-color-3: #a46f72;
-    --dark-accent:#AF473C;
-    --borders-hover: #839181;
-    --white: #eee; 
+    --dark-accent: #AD6C71;
+    --white: #fffff; 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
-  margin: .3em;
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-color);
-  color: var(--darkest-color);
+  color: var(--body-text);
 }
 
 code {
@@ -63,3 +65,34 @@ H4 {
   color: var(--dark-accent);
 
 }
+
+.links {
+      display:table;
+      width:80%;
+      margin:auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      &__btn {
+          display:table-cell;
+          font-size: 1em;
+          padding: .2em;
+          width: 50%;
+          text-align:center;
+        }
+        &__btn-dark {
+            color: var(--highlight-3);         
+            background: var(--highlight-2);
+            text-decoration: none;
+            border: none;
+            border: 2px solid var(--body-text);
+        }
+        &__btn-light{
+            color: var(--accent-color-3);
+            background: var(--background-color);
+            text-decoration: none;
+            border: none;
+            border: 2px solid var(--accent-color-3);
+        }
+  }
+

@@ -1,39 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
+
 import "./App.scss";
 
+import SiteHeader from "./components/SiteHeader";
+import ProjectViewer from "./components/ProjectViewer";
 
-
-import SiteNav from "./components/SiteNav";
-import ProjectNav from "./components/ProjectNav";
-import LandingPage from './components/LandingPage';
-import DevProjects from './components/DevProjects';
-import DesignProjects from './components/DesignProjects';
-import About from './components/About';
-
+import "./App.scss";
 
 
 function App() {
 
   return (
-    <div className="app">
+    <div className="proj">
       <Router>
-        <header className="app__header">
-          <SiteNav />
-        </header>
-        <section>
-          <div className="project__nav">
-            <ProjectNav />
-          </div>
-          <div className="project__section">
-            <Switch>
-              <Route path="/" component={LandingPage} exact />
-              <Route path="/development" component={DevProjects} />
-              <Route path="/design" component={DesignProjects} />
-              <Route path="/about" component={About} />
-            </Switch>
-          </div>
-        </section>
+        <div className="proj__site-header">
+          <SiteHeader />
+        </div>
+        <div className="proj__project-viewer">
+          <ProjectViewer />
+        </div>
       </Router>
     </div>
   );

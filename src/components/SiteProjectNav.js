@@ -5,10 +5,10 @@ import leftcurlyLogo from "../images/noun_Left Curly Bracket_346828.svg";
 
 
 
-import "../styles/Project.scss";
+import "../styles/SiteProjectNav.scss";
 
-const ProjectNav = () => (
-  <nav className="project-nav">
+const SiteProjectNav = () => (
+  <nav className="site-project-nav">
     <div>
       <img className="left-curly" src={leftcurlyLogo} alt="left curly brace" />
     </div>
@@ -35,4 +35,4 @@ const ProjectNav = () => (
 );
 
 
-export default ProjectNav;
+export default SiteProjectNav;

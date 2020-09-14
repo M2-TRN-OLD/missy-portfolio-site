@@ -4,6 +4,12 @@
     max-width: 90%;
     border: 1px solid var(--borders-hover);
 
+    &__title {
+        color: var(--highlight-3);
+        font-size:1em;
+        padding-bottom: 1em;
+    }
+
     &__image {
         width:100%;
     }
