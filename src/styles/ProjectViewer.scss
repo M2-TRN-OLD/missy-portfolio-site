@@ -1,26 +1,14 @@
 .project-viewer {
-        display:flex;
-        flex-direction: row;
+    display:flex;
+    flex-direction: row;
 }
 
-.project-viewer__nav,
-.project-viewer__items {
-    border:1px solid var(--highlight-3);
-}
 
 .project-viewer__nav {
   display:none;
 }
 
-.left-curly {
-  height: 4.5em;
-  filter: invert(93%) sepia(9%) saturate(1281%) hue-rotate(100deg) brightness(98%) contrast(96%);
-}
 
-.items {
-  text-align:left;
-
-}
 
 ul {
   margin:0;
@@ -28,6 +16,10 @@ ul {
 }
 
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .project-viewer {
+        height:97vh;
+    }
+    
     .project-viewer__nav {
         display:flex;
         width:75%;

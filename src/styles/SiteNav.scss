@@ -1,0 +1,76 @@
+.navbar{
+    display:flex;
+    flex-direction:row;
+
+    &__title{
+        padding-left: .5em;
+    }
+
+    &__nav {
+        display:flex; 
+    }
+
+    &__name {
+        font-size:.8em;
+        color: var(--text-highlight);
+        text-align:left;
+    }
+
+    &__desc {
+        font-size:.8em;
+        color: var(--text-highlight);
+        align-items:center;
+        text-align:left;
+        display:block;
+    }
+
+    &__items {
+        font-size:.6em;
+    }
+
+    &__left-curly {
+        filter: invert(93%) sepia(9%) saturate(1281%) hue-rotate(100deg) brightness(98%) contrast(96%);
+        
+    }
+}
+
+.left-curly {
+    height: 4.5em;
+}
+        
+
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+.navbar {
+    display:flex;
+    flex-direction:column;
+
+    &__title {
+        font-size:2.5em;
+        color:var(--text-highlight);
+    }
+
+    &__name {
+        font-size:.8em;
+        color: var(--text-highlight);
+        align-items:center;
+        text-align:left;
+        display:block;
+    }
+
+     &__items {
+        font-size:1.5em;
+    }
+
+   
+}
+
+.left-curly {
+    font-size: 3.5em;
+    margin-left: -2em;
+    margin-right:-.3em;
+}
+
+
+
+}
+

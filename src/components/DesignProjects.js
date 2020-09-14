@@ -7,7 +7,8 @@ import "../styles/DesignProjects.scss";
 class DesignProjects extends React.Component {
   render() {
     return (
-      <div className="project-section dev">
+      <div className="project-section">
+        <div className="design-container">
         {DesignData.map((item, index) => {
           return (
             <div className="card" key={item.id}>
@@ -50,6 +51,7 @@ class DesignProjects extends React.Component {
             </div>
             );
           })}
+      </div>
       </div>
     );
   }

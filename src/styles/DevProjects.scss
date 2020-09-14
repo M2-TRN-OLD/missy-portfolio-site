@@ -1,0 +1,7 @@
+.dev-container {
+    max-height:100vh;
+    overflow:auto;
+    border:1px solid red;
+}
+
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }

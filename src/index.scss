@@ -31,7 +31,7 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-color);
+  background-color: var(--white);
   color: var(--body-text);
 }
 
@@ -67,8 +67,8 @@ H4 {
 }
 
 .links {
-      display:table;
-      width:80%;
+      /* display:table;
+      width:30%;
       margin:auto;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -79,20 +79,37 @@ H4 {
           padding: .2em;
           width: 50%;
           text-align:center;
-        }
+        } */
         &__btn-dark {
             color: var(--highlight-3);         
             background: var(--highlight-2);
-            text-decoration: none;
-            border: none;
+            padding:.3em;
+            text-align:center;
+            font-size:.7em;
+            font-weight:600;
             border: 2px solid var(--body-text);
         }
-        &__btn-light{
+       /*  &__btn-light{
             color: var(--accent-color-3);
             background: var(--background-color);
             text-decoration: none;
             border: none;
             border: 2px solid var(--accent-color-3);
+        } */
+  }
+
+  @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .links {
+        &__btn-dark {
+             color: var(--highlight-3);         
+            background: var(--highlight-2);
+            padding:.6em;
+            text-align:center;
+            font-size:1.3em;
+            font-weight:700;
+            border: 2px solid var(--body-text);
         }
+      }
+  
   }
 

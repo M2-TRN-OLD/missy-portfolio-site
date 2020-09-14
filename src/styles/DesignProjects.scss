@@ -1,3 +1,10 @@
+ .design-container {
+      max-height:100vh;
+    overflow:auto;
+    border:1px solid red;
+
+ }
+ 
  .card {
     margin: .5em .5em 2em .5em;
     padding:10px;
