@@ -1,8 +1,7 @@
  .design-container {
-      max-height:100vh;
-    overflow:auto;
-    border:1px solid red;
-
+        max-height:100vh;
+        overflow:auto;
+        border:1px solid red;
  }
  
  .card {
@@ -89,6 +88,11 @@
           font-style:italic;
           padding-left:1em;
       }
+
+      &__icon {
+        height: 10em;
+        border:1px solid;
+    }
     
   }
 
@@ -96,4 +100,14 @@
 .artifacts {
     display:flex;
     flex-direction:row;
+
+    &__desc {
+        font-size: 1.3em;
+    }
+
+    &__icon {
+        height: 10em;
+        border:1px solid;
+    }
+
 }

@@ -19,7 +19,9 @@ class DesignProjects extends React.Component {
                 {item.artifacts.map((artifact, index) => {
                   return (
                     <li>
-                      <div key={index}>
+                      <div key={index}>{artifact.name}</div>
+                        
+                        <div className="artifacts__desc">{artifact.desc}</div>
                         <div>
                           <a
                             href={artifact.artifactLink}
@@ -27,10 +29,9 @@ class DesignProjects extends React.Component {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            {artifact.name}
+                            <img src={artifact.artifactIcon} className="artifacts__icon" />
                           </a>
                         </div>
-                        <div className="artifacts__desc">{artifact.desc}</div>
                         <div className="artifacts__desc">
                           <a
                             href={artifact.supportDocLink}
@@ -41,7 +42,6 @@ class DesignProjects extends React.Component {
                             {artifact.supportDocDesc}
                           </a>
                         </div>
-                      </div>
                     </li>
                   );
                 })}
